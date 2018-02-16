@@ -111,8 +111,8 @@ namespace parameters {
 
 const char     CRYPTONOTE_NAME[]                             = "Pharaoh";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "";
-const uint32_t GENESIS_NONCE                                 = ;
-const uint64_t GENESIS_TIMESTAMP                             = ;
+const uint32_t GENESIS_NONCE                                 = 1;
+const uint64_t GENESIS_TIMESTAMP                             = 1518760622;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
