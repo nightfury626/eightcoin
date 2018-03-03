@@ -29,7 +29,7 @@ namespace parameters {
   const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30;
 
   // MONEY_SUPPLY - total number coins to be generated
-  const uint64_t MONEY_SUPPLY                                  = UINT64_C(170000000000000);
+  const uint64_t MONEY_SUPPLY                                  = UINT64_C(1700000000000000);
   const uint32_t MANDATORY_TRANSACTION                         = 0;
   const uint32_t KILL_HEIGHT                                   = 0;
   const uint64_t TAIL_EMISSION_REWARD                          = 0;
@@ -109,7 +109,7 @@ namespace parameters {
   const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(2640));
 
 
-const char     CRYPTONOTE_NAME[]                             = "Pharaoh";
+const char     CRYPTONOTE_NAME[]                             = "HashBrown";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 const uint32_t GENESIS_NONCE                                 = 1;
 const uint64_t GENESIS_TIMESTAMP                             = 1518760622;
