@@ -29,7 +29,7 @@ namespace parameters {
   const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30;
 
   // MONEY_SUPPLY - total number coins to be generated
-  const uint64_t MONEY_SUPPLY                                  = UINT64_C(1700000000000000);
+  const uint64_t MONEY_SUPPLY                                  = UINT64_C(999000000000000);
   const uint32_t MANDATORY_TRANSACTION                         = 0;
   const uint32_t KILL_HEIGHT                                   = 0;
   const uint64_t TAIL_EMISSION_REWARD                          = 0;
@@ -125,8 +125,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  500;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              = 17000;
-const int      RPC_DEFAULT_PORT                              = 18000;
+const int      P2P_DEFAULT_PORT                              = 17001;
+const int      RPC_DEFAULT_PORT                              = 18001;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -144,8 +144,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "18.219.209.98:17000",
-   "18.219.139.143:17000"
+   "18.220.5.84:17001",
+   "13.59.139.6:17001"
 };
 
 struct CheckpointData {
